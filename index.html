@@ -44,7 +44,6 @@
                 </ul>
             </div>
         </nav>
-
         <main class="content-area">
             <div class="search-bar col-md-6 mx-auto">
                 <h1 class="text-center">Hard Rock Lyric Search</h1>
@@ -93,11 +92,11 @@
                     const picture = element.artist.picture;
                     const name = element.artist.name;
                     const playsong = element.preview
-                    maindiv.innerHTML = maindiv.innerHTML + ` <div class="single-result row align-items-center my-3 p-3">
+                    maindiv.innerHTML = maindiv.innerHTML + ` <div id="real" class="single-result row align-items-center my-3 p-3">
                     <div id="image">
                         <img id="img" src="${picture}" alt="">
                     </div>
-                    <div class="col-md-7">
+                    <div class="col-md-7 text-center">
                         <h3 class="">${name}</h3>
                         <p class="author lead">Album by <span>${artistName}</span></p>
                     </div>

@@ -60,3 +60,11 @@ body {
 
     color: white;
 }
+
+@media (max-width:1500px) and (min-width:400px) {
+    #real {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
